@@ -60,6 +60,8 @@ public class StreamLearn {
     //allMatch() All satisfies the condition
     //noneMatch() None satisfies the condition
 
+
+
   }
 
 }
