@@ -60,7 +60,11 @@ public class StreamLearn {
     //allMatch() All satisfies the condition
     //noneMatch() None satisfies the condition
 
+    //reduce - return any a value
+    int soma = numbers.stream()
+            .reduce(0, (a, b) -> a + b);
 
+    System.out.println(soma);  // 15
 
   }
 
