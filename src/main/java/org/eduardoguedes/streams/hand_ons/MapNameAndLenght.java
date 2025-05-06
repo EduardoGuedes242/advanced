@@ -10,8 +10,6 @@ public class MapNameAndLenght {
     List<String> names = List.of("Rouse", "Eduardo", "Jack");
 
 
-
-
     Map<String, Integer> mapList = names.stream()
             .collect(Collectors.toMap(name -> name,
                     name -> name.length()));
